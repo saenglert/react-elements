@@ -1,0 +1,23 @@
+.list {
+  background: white;
+  width: 50em;
+}
+
+.list-header {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  padding: 4px 8px;
+}
+
+.list-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.list-cell {
+  width: 100%;
+  border-bottom: 1px dotted black;
+  padding: 4px 8px;
+}
