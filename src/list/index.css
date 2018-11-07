@@ -21,3 +21,7 @@
   border-bottom: 1px dotted black;
   padding: 4px 8px;
 }
+
+.list-cell.selected {
+  background: greenyellow;
+}

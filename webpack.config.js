@@ -1,10 +1,13 @@
 const path = require("path");
 
 module.exports = {
-  entry: path.join(__dirname, "src"),
+  entry: {
+    testpage: path.join(__dirname, "src", "testpage.tsx"),
+    package: path.join(__dirname, "src")
+  },
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "index.js"
+    filename: "react_elements_[name].js"
   },
   mode: "development",
   devServer: {

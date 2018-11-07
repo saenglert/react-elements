@@ -8,16 +8,23 @@
   "license": "MIT",
   "private": true,
   "scripts": {
+    "build": "yarn webpack -p",
     "watch": "yarn webpack -w -p",
     "dev": "webpack-dev-server"
   },
+  "peerDependencies": {
+    "classnames": "^2.2.6",
+    "react": "^16.5.2"
+  },
   "devDependencies": {
     "@types/classnames": "^2.2.6",
+    "@types/ramda": "^0.25.41",
     "@types/react": "^16.4.18",
     "@types/react-dom": "^16.0.9",
     "awesome-typescript-loader": "^5.2.1",
     "classnames": "^2.2.6",
     "css-loader": "^1.0.0",
+    "ramda": "^0.25.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "style-loader": "^0.23.1",
